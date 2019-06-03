@@ -40,5 +40,6 @@ def play(board)
   while i < 9 
     i += 1 
     turn(board)
+    input_to_index(user_input)
   end
 end
