@@ -35,7 +35,7 @@ def turn(board)
   end
 end
 
-def play(board)
+def play(kind_of_array)
   i = 0 
   while i < 9 
     i += 1 
